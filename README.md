@@ -6,7 +6,7 @@
 - KEMDy19 (성우 대상 상황극) 데이터셋 [바로가기](https://nanum.etri.re.kr/share/kjnoh/KEMDy19?lang=ko_KR)
 
 ## Code
-`audio CNN.py` : 음성 신호 모델
+`audio CNN.py` : 음성 신호 감정표현 모델
 
 `eda XGBClassifier bf.py` : EDA 감정반응+감정표현 모델
 
