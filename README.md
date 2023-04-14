@@ -62,7 +62,7 @@ X_test (2095, 128, 3300) y_test (2095, 7)
 
 
 ## 모델 성능 평가
-![image](https://user-images.githubusercontent.com/130694680/231944234-90344d42-c088-4543-86c6-521405c92905.png)
+![image](https://user-images.githubusercontent.com/130694680/231962041-547ca899-2c50-4076-830b-76a94f454bca.png)
 
 ## 실험 결과
 ![image](https://user-images.githubusercontent.com/130694680/231944849-ae8b71ed-e63b-4ce7-9541-3c38dc31247e.png)
