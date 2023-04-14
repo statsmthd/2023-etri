@@ -1,9 +1,20 @@
 # 2023 제2회 ETRI 휴먼이해 인공지능 논문경진대회
-본 대회는 한국전자통신연구원(ETRI)이 주최하고 과학기술정보통신부와 국가과학기술연구회(NST)가 후원합니다.
+>본 대회는 한국전자통신연구원(ETRI)이 주최하고 과학기술정보통신부와 국가과학기술연구회(NST)가 후원합니다.
 
 
 - 멀티모달 감정 데이터셋 활용 감정인식 기술 분야 [바로가기](https://aifactory.space/competition/detail/2234)
 - KEMDy19 (성우 대상 상황극) 데이터셋 [바로가기](https://nanum.etri.re.kr/share/kjnoh/KEMDy19?lang=ko_KR)
+
+## Code
+`audio CNN.py` : 음성 신호 모델
+
+`eda XGBClassifier bf.py` : EDA 감정반응+감정표현 모델
+
+`eda XGBClassifier now.py` : EDA 감정표현 모델
+
+`text KoBERT bf.py` : 텍스트 감정반응+감정표현 모델
+
+`soft voting.py` : 최종 멀티모달
 
 
 # 논문 주제
@@ -27,21 +38,27 @@
 ### Data shape
 - Text
 
+```
 X_train (8721, 9) y_train (8721, )
 
 X_test (2230, 9) y_test (2230, )
+```
 
 - EDA
 
+```
 X_train (5968, 172) y_train (5968, )
 
 X_test (2021, 172) y_test (2021, )
+```
 
 - Audio
 
+```
 X_train (9360, 128, 3300) y_train (9360, 7)
 
 X_test (2095, 128, 3300) y_test (2095, 7)
+```
 
 
 ## 모델 성능 평가
