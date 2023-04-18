@@ -43,7 +43,7 @@ X_train (8721, 9) y_train (8721, )
 
 X_test (2230, 9) y_test (2230, )
 ```
-
+텍스트에 대한 설명 기입
 - EDA
 
 ```
@@ -51,7 +51,7 @@ X_train (5968, 172) y_train (5968, )
 
 X_test (2021, 172) y_test (2021, )
 ```
-
+EDA에 대한 설명 기입
 - Audio
 
 ```
@@ -59,7 +59,7 @@ X_train (9360, 128, 3300) y_train (9360, 7)
 
 X_test (2095, 128, 3300) y_test (2095, 7)
 ```
-
+Audio에 대한 
 
 ## 모델 성능 평가
 ![image](https://user-images.githubusercontent.com/130694680/231962041-547ca899-2c50-4076-830b-76a94f454bca.png)
