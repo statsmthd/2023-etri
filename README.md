@@ -22,7 +22,7 @@
  최근 인공지능 기술의 발전으로 대화에서의 감정인식 기술에 대한 연구가 지속적으로 이루어지고 있다. 기존 연구에서는 단일 모달보다 멀티 모달 모델을 사용하여 감정을 분류하는 것에 초점을 맞추고 있지만, 더 나아가 대화에서의 문맥이나 감정 반응을 고려해 발화자의 감정을 인식하는 방법에 대해 제안하고자 한다. ‘KEMDy19’ 데이터셋을 사용하여 감정을 분류한 결과 감정반응을 적용한 모델의 성능이 적용하지 않은 모델 성능보다 약 0.2%-10.1% 정도 향상되었고, 단일 모달을 사용했을 때 보다 멀티 모달 모델을 기반으로 감정을 분류했을 때 향상된 성능을 보였다.
 
 ## 감정 반응과 감정 표현
-![image](https://user-images.githubusercontent.com/130694680/232383758-5d5427a0-18ca-4ada-8452-9404384724e6.png)
+![image](https://user-images.githubusercontent.com/130694680/232826978-8df6d142-e1a8-4709-9178-8fcd7838fbb8.png)
 
 - 감정 반응(Emotion Response, {})
 
@@ -33,7 +33,7 @@
   발화자가 발화할 때 언어적 표현, 비언어적 행동을 통해 감정을 외부적으로 표현
 
 ## 모델 아키텍처
-![image](https://user-images.githubusercontent.com/130694680/231943514-e450f8d5-8db9-420a-ba6f-e5999c6e18cc.png)
+![image](https://user-images.githubusercontent.com/130694680/232827002-4ca6952e-ca99-4d11-9358-44b8c03b31dc.png)
 
 ### Data shape
 - Text
