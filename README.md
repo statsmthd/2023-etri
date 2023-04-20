@@ -32,7 +32,9 @@
   발화자가 발화할 때 언어적 표현, 비언어적 행동을 통해 감정을 외부적으로 표현
 
 ## 모델 아키텍처
-![image](https://user-images.githubusercontent.com/130694680/233250375-4c770470-3332-46c2-a68c-1487f5a9fe0e.png)
+![image](https://user-images.githubusercontent.com/130694680/233250375-4c770470-3332-46c2-a68c-1487f5a9fe0e.png)<br/>
+<br/>
+각 데이터 유형에서 추출한 특징을 KoBERT, XGBClassifier, CNN(Convolutional Neural Network) 모델에 적용하여 단일모달 모델을 구축하고, 이를 바탕으로 앙상블 기법을 적용하여 최종 예측 값을 도출한다.
 
 ## 데이터셋
 > * 감정평가 데이터에서 하나의 발화 세그먼트 당 2개 이상의 감정이 평가되어 있는 경우가 있어 이에 해당되는 발화 세그먼트를 평가된 감정의 개수만큼 중복 생성하여 단일 감정 레이블로 변환하였다.
